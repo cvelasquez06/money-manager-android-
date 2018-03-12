@@ -1,0 +1,78 @@
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/image_item_expense"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="9dp"
+        android:src="@mipmap/ic_launcher_wallet" />
+    <TextView
+        android:id="@+id/title_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image_item_expense"
+        android:text="sin informacion"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/title_item_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/image_item_expense"
+        android:gravity="center"
+        android:text="3000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#002F5A"
+        android:textSize="40dp"
+        android:drawableLeft="@mipmap/ic_launcher_moneyicon"
+        android:layout_marginRight="40dp"
+        android:layout_below="@id/title_item_date"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/layout_container_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image_item_expense"
+        android:layout_below="@id/title_item_amount"
+        >
+        <TextView
+            android:id="@+id/title_item_project"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sin informacion"
+            android:textSize="15dp"
+            android:layout_weight="5"
+            />
+
+        <TextView
+            android:id="@+id/title_item_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="sin informacion"
+            android:textSize="15dp"
+            android:layout_weight="5"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_item_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sin informacion"
+        android:layout_toEndOf="@id/image_item_expense"
+        android:layout_below="@id/layout_container_text"
+        android:textSize="15dp"
+        />
+
+
+</RelativeLayout>

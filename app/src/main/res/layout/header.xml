@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="7dp"
+    android:background="@color/darkLead">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher_profile" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Management"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E0E0E0"
+        android:text="Other: "
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="45dp"
+        />
+    <TextView
+        android:id="@+id/header_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E0E0E0"
+        android:text="Sin información."
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="45dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E0E0E0"
+        android:text="Other "
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        />
+    <TextView
+        android:id="@+id/header_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E0E0E0"
+        android:text="Sin información."
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="65dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E0E0E0"
+        android:text="Other"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="85dp"
+        />
+    <TextView
+        android:id="@+id/header_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E0E0E0"
+        android:text="Sin información."
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="85dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E0E0E0"
+            android:text="Other"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="105dp"
+        />
+    <TextView
+        android:id="@+id/header_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E0E0E0"
+        android:text="Sin información."
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="105dp"
+        />
+</FrameLayout>

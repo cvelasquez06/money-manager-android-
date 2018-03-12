@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="0dp"
+        android:id="@+id/projectItemId"
+        android:layout_below="@+id/projectItemName"
+        android:layout_toRightOf="@+id/projectItemImage"
+        android:layout_toEndOf="@+id/projectItemImage"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Frase"
+        android:textSize="15dp"
+        android:id="@+id/projectDescription"
+        android:layout_below="@+id/projectItemName"
+        android:layout_toRightOf="@+id/projectItemImage"
+        android:layout_toEndOf="@+id/projectItemImage"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#002F5A"
+        android:text="Titulo Frase"
+        android:id="@+id/projectItemName"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/projectItemImage"
+        android:layout_toEndOf="@+id/projectItemImage" />
+
+    <ImageView
+        android:id="@+id/projectItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/projectDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:maxHeight="80dp"
+        android:maxWidth="150dp"
+        android:src="@mipmap/ic_launcher_project" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="0dp"
+        android:id="@+id/categoryItemId"
+        android:layout_below="@+id/categoryItemName"
+        android:layout_toRightOf="@+id/categoryItemImage"
+        android:layout_toEndOf="@+id/categoryItemImage"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Frase"
+        android:textSize="15dp"
+        android:id="@+id/categoryDescription"
+        android:layout_below="@+id/categoryItemName"
+        android:layout_toRightOf="@+id/categoryItemImage"
+        android:layout_toEndOf="@+id/categoryItemImage"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Titulo Frase"
+        android:id="@+id/categoryItemName"
+        android:textSize="25dp"
+        android:textColor="#002F5A"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/categoryItemImage"
+        android:layout_toEndOf="@+id/categoryItemImage" />
+
+    <ImageView
+        android:id="@+id/categoryItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/categoryDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:maxHeight="80dp"
+        android:maxWidth="150dp"
+        android:src="@mipmap/ic_launcher_category" />
+
+</RelativeLayout>
